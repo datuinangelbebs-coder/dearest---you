@@ -1,0 +1,525 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Story Called Us ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- BACKGROUND HEARTS -->
+    <div class="background-hearts">
+        <span>♡</span>
+        <span>♥</span>
+        <spangive>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+    </div>
+
+    <!-- PIN LOCK SCREEN -->
+    <section class="lock-screen" id="lockScreen">
+
+        <div class="lock-decoration lock-star">✦</div>
+        <div class="lock-decoration lock-heart">♡</div>
+        <div class="lock-decoration lock-star second-star">✧</div>
+
+        <div class="lock-card">
+
+            <div class="lock-top">A PRIVATE LITTLE GIFT</div>
+
+            <!-- NOTEBOOK COVER -->
+            <div class="notebook-icon">
+
+                <div class="notebook-spiral">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="notebook-cover">
+                    <span class="cover-flower">✿</span>
+
+                    <span class="cover-title">
+                        Our Little<br>Story
+                    </span>
+
+                    <span class="cover-heart">♡</span>
+
+                    <span class="cover-date">
+                        EST. 12 · 12 · 25
+                    </span>
+                </div>
+
+                <div class="notebook-pages"></div>
+            </div>
+
+            <h1>A little notebook for you.</h1>
+
+            <p class="lock-description">
+                Some words are meant just for you.<br>
+                Enter our special date to open it.
+            </p>
+
+            <form id="pinForm" class="pin-form">
+
+                <label for="pinInput">OUR SPECIAL PIN</label>
+
+                <input
+                    type="password"
+                    id="pinInput"
+                    maxlength="6"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    placeholder="Enter 6-digit PIN"
+                    autocomplete="off"
+                    required
+                >
+
+                <p class="pin-error" id="pinError">
+                    That's not quite right. Try again, love. ♡
+                </p>
+
+                <button type="submit" class="unlock-btn">
+                    Open my notebook ♡
+                </button>
+
+            </form>
+
+            <div class="lock-footer">
+                A LITTLE SECRET BETWEEN US
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MAIN NOTEBOOK WEBSITE -->
+    <main class="main-container" id="mainContainer">
+
+        <!-- LEFT SIDE -->
+        <section class="visual-panel">
+
+            <div class="top-label">
+                A LITTLE SOMETHING FOR YOU
+            </div>
+
+            <div class="scene">
+
+                <div class="sparkle sparkle-one">✦</div>
+                <div class="sparkle sparkle-two">✧</div>
+                <div class="sparkle sparkle-three">✦</div>
+
+                <div class="heart heart-one">♥</div>
+                <div class="heart heart-two">♡</div>
+                <div class="heart heart-three">♥</div>
+
+                <!-- CSS TEDDY BEAR -->
+                <div class="teddy">
+
+                    <div class="ear ear-left"></div>
+                    <div class="ear ear-right"></div>
+
+                    <div class="head">
+                        <div class="eye eye-left"></div>
+                        <div class="eye eye-right"></div>
+
+                        <div class="cheek cheek-left"></div>
+                        <div class="cheek cheek-right"></div>
+
+                        <div class="muzzle">
+                            <div class="nose"></div>
+                            <div class="mouth"></div>
+                        </div>
+                    </div>
+
+                    <div class="body">
+                        <div class="belly"></div>
+                    </div>
+
+                    <div class="arm arm-left"></div>
+                    <div class="arm arm-right"></div>
+
+                    <div class="leg leg-left"></div>
+                    <div class="leg leg-right"></div>
+
+                    <div class="tiny-heart">♥</div>
+
+                </div>
+
+                <div class="pedestal"></div>
+                <div class="pedestal-shadow"></div>
+
+            </div>
+
+            <div class="visual-caption">
+                <h1>A Story Called Us</h1>
+                <p>Every little moment, every lesson, every version of us. ♡</p>
+            </div>
+
+        </section>
+
+        <!-- RIGHT SIDE: NOTEBOOK PAGES -->
+        <section class="letter-panel">
+
+            <div class="letter-header">
+                <div>
+                    <span class="eyebrow">A LETTER FOR YOU</span>
+                    <h3 class="notebook-heading">Dearest,</h3>
+                </div>
+
+                <span class="small-heart">♡</span>
+            </div>
+
+            <!-- PROGRESS -->
+            <div class="progress-area">
+
+                <div class="progress-track">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+
+                <div class="page-info">
+                    <span id="pageNumber">01</span>
+                    <span id="totalPages"> / 09</span>
+                </div>
+
+            </div>
+
+            <!-- NOTEBOOK CONTENT -->
+            <div class="slides-container">
+
+                <!-- CHAPTER 1 -->
+                <article class="slide active">
+
+                    <span class="slide-tag">CHAPTER 01 · A LETTER FOR YOU</span>
+
+                    <h2>To the person I still choose.</h2>
+
+                    <p>
+                        Hi, baby. There are things I don't always know how to say out loud, so I thought I'd put some of them here. I made this so you could have something to look back on. I hope these pages make you feel a little of the love and appreciation I have for you.
+                    </p>
+
+                    <p>
+                        I may not be perfect, and our relationship
+                        isn't perfect either, but I'm thankful that
+                        I get to share these moments with you.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 2 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 02 · OUR JOURNEY</span>
+
+                    <h2>We've had our moments.</h2>
+
+                    <p>
+                        I know things haven't always been easy
+                        between us. We have misunderstandings,
+                        tampo, arguments, and moments when we
+                        don't understand each other.
+                    </p>
+
+                    <p>
+                        Sometimes, I overthink. Sometimes, I say
+                        things without thinking about how they
+                        might make you feel. And sometimes,
+                        I fail to explain what I really mean.
+                    </p>
+
+                    <p>
+                        I'm sorry for the times I've hurt you,
+                        especially when all you wanted was to
+                        feel understood. I know saying sorry
+                        isn't enough if I don't learn from my mistakes.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 3 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 03 · GROWING TOGETHER</span>
+
+                    <h2>I'm still learning.</h2>
+
+                    <p>
+                        I want us to become better, not just
+                        as a couple but also as individuals.
+                        I want to learn how to listen more,
+                        understand you better, and be more
+                        careful with my words.
+                    </p>
+
+                    <p>
+                        Dili man ta perfect, and we won't always
+                        agree on everything. But I hope we can
+                        choose to understand each other instead
+                        of letting misunderstandings become bigger.
+                    </p>
+
+                    <p>
+                        I want us to feel safe sharing our thoughts,
+                        even when the conversation is difficult.
+                        We should be on the same team, not against each other.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 4 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 04 · THANK YOU</span>
+
+                    <h2>Thank you for staying.</h2>
+
+                    <p>
+                        Thank you for the little things you do,
+                        for your time, your patience, and the
+                        moments when you make me feel appreciated.
+                    </p>
+
+                    <p>
+                        Thank you for being part of my life.
+                        From the simple conversations to the
+                        memories we've made, I appreciate all of them.
+                    </p>
+
+                    <p>
+                        One year of knowing you and eleven months
+                        of being together may sound like numbers,
+                        but for me, they hold so many memories,
+                        lessons, and reasons to be thankful.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 5 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 05 · HOW IT STARTED</span>
+
+                    <h2>It started with a simple conversation.</h2>
+
+                    <p>
+                        Go back to the days when we first talked
+                        to each other. Honestly, at first,
+                        wala lang talaga to. I didn't expect
+                        anything special.
+                    </p>
+
+                    <p>
+                        But the more we talked, the more I found
+                        myself getting interested in you.
+                        I don't know exactly why, but I really
+                        wanted to know you more.
+                    </p>
+
+                    <p>
+                        I wanted to understand your stories,
+                        your thoughts, and the little things
+                        about you. I wanted to know the person
+                        behind those conversations.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 6 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 06 · WHY I ADMIRE YOU</span>
+
+                    <h2>It's the little things.</h2>
+
+                    <p>
+                        I didn't fall in love just because of
+                        your appearance. It was because of how
+                        you treated me, your sweetness, and how
+                        diligent you are with your academics.
+                    </p>
+
+                    <p>
+                        I admire how you keep doing what you can,
+                        bisag kapoy na, you still try to move forward.
+                        I see that effort, and it means so much to me.
+                    </p>
+
+                    <p>
+                        Your service, your quality time, and even
+                        the simplest things you do give me butterflies.
+                        Maybe you don't notice it, but those little
+                        moments are some of the things I appreciate most.
+                    </p>
+
+                    </p>
+                        I like hearing about your day, your random stories,
+                        and even the things you think are not that important. 
+                        I enjoy knowing what's on your mind. Bisan simple nga update lang or random nga topic,
+                        it makes me happy nga you choose to share those things with me.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 7 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 07 · I'M SORRY</span>
+
+                    <h2>You deserve to be treated right.</h2>
+
+                    <p>
+                        I also want to say sorry for the times
+                        I made you overthink and for the moments
+                        I didn't treat you the way you wanted
+                        and deserved to be treated.
+                    </p>
+
+                    <p>
+                        Sorry sa akong behavior sometimes,
+                        especially sa mga moments nga pati ako
+                        wala na kasabot sa akong kaugalingon.
+                        I know that doesn't excuse the way I act.
+                    </p>
+
+                    <p>
+                        I don't want you to keep questioning
+                        your worth because of my actions.
+                        You deserve reassurance, understanding,
+                        respect, and consistency.
+                    </p>
+
+                    <p>
+                        I'm still learning, and I hope my actions
+                        will show that I'm serious about becoming
+                        better. I don't want my apologies to be
+                        just words. I want to learn from them.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 8 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 08 · A REMINDER FOR YOU</span>
+
+                    <h2>Please don't be too hard on yourself.</h2>
+
+                    <p>
+                        Always remember to take pahuway when
+                        you're tired. You don't have to force
+                        yourself to do everything at once.
+                        Rest is okay, and taking things slowly
+                        doesn't mean you're falling behind.
+                    </p>
+
+                    <p>
+                        Please don't let negative words make
+                        you question who you are. You're more
+                        than enough just as you are right now.
+                        Dili man pirmi hayag ang atong days,
+                        but that doesn't mean we won't have
+                        brighter days again.
+                    </p>
+
+                    <p>
+                        Maybe not today, maybe not tomorrow,
+                        but someday you'll have another chance
+                        to shine. For now, focus on your goals
+                        and dreams. Keep going at your own pace.
+                    </p>
+
+                    <p>
+                        I, your friends, and your family are
+                        proud of you. And most importantly,
+                        Allah knows every effort you make,
+                        even the ones that other people don't see.
+                    </p>
+
+                </article>
+
+                <!-- CHAPTER 9 -->
+                <article class="slide">
+
+                    <span class="slide-tag">CHAPTER 09 · MY FINAL WORDS</span>
+
+                    <h2>And my choice is still you.</h2>
+
+                    <p>
+                        I can't promise that I'll never make
+                        mistakes, but I can promise that I'll
+                        keep trying to become a better person
+                        and a better partner.
+                    </p>
+
+                    <p>
+                        I want more memories with you, more
+                        random conversations, more laughter,
+                        and more little moments that we can
+                        look back on someday.
+                    </p>
+
+                    <p>
+                        I'm thankful for you, for us, and
+                        for everything we've learned along the way.
+                    </p>
+
+                    <p class="final-message">
+                        I still choose you, and I still choose us.
+                        Not because we're perfect, but because
+                        I believe we can keep learning and growing
+                        together. And if someday we look back at this notebook, 
+                        I hope we'll smile knowing how much we've grown
+                        since the day I made this.
+                        From strangers to people who now share memories,
+                        stories, and a special place in each other's lives.
+                        I love you.
+                    </p>
+
+                    <div class="ending-heart">♥</div>
+
+                    <p class="ending-note">
+                        THE END OF THIS NOTEBOOK, BUT NOT OUR STORY.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <!-- NAVIGATION -->
+            <div class="navigation">
+
+                <button id="prevBtn" class="nav-btn back-btn" disabled>
+                    ← Back
+                </button>
+
+                <div class="dots" id="dots"></div>
+
+                <button id="nextBtn" class="nav-btn next-btn">
+                    Next →
+                </button>
+
+            </div>
+
+            <p class="footer-note">
+                MADE WITH LOVE, JUST FOR YOU ♡
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
